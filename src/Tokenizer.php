@@ -31,6 +31,7 @@ final class Tokenizer
     private $reserved = [
         'ACCESSIBLE',
         'ACTION',
+        'AFTER',
         'AGAINST',
         'AGGREGATE',
         'ALGORITHM',
@@ -319,7 +320,6 @@ final class Tokenizer
         'UPDATE',
         'HAVING',
         'ADD',
-        'AFTER',
         'ALTER TABLE',
         'DELETE FROM',
         'UNION ALL',
